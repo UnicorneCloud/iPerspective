@@ -1,0 +1,14 @@
+PODS:
+  - iPerspective (0.1.0)
+
+DEPENDENCIES:
+  - iPerspective (from `../`)
+
+EXTERNAL SOURCES:
+  iPerspective:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iPerspective: 9825083f4c8c10f762df830e55c109f72e9cd94c
+
+COCOAPODS: 0.35.0

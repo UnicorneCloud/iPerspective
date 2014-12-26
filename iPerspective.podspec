@@ -10,13 +10,8 @@
 Pod::Spec.new do |s|
   s.name             = "iPerspective"
   s.version          = "0.1.0"
-  s.summary          = "UIView and UIImageView with augmented reality."
-  s.description      = <<-DESC
-                       An optional longer description of iPerspective
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.summary          = "iPerspective is a iOS librarie of control with augmented reality."
+  #s.description      = ""
   s.homepage         = "https://github.com/ericpinet/iPerspective"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'

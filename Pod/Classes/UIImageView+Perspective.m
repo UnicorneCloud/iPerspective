@@ -8,7 +8,7 @@
 
 #import "UIImageView+Perspective.h"
 
-#define AMPLITUDE 15
+#define AMPLITUDE 20
 #define LIMIT_ANGLE 2
 
 @implementation UIImageView (Perspective)

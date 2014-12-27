@@ -8,6 +8,8 @@ iPerspective is a iOS librarie of control with augmented reality.
 - **UIImageViewPerspective**: UIImageView with perspective when user move device. _(Under construction)_
 - **UIViewPerspective**: UIView with perspective when user move device. _(Under construction)_
 
+Documentation: [iPerspectiveDocs](http://cocoadocs.org/docsets/iPerspective)
+
 # iPerspective
 
 [![CI Status](http://img.shields.io/travis/Eric Pinet/iPerspective.svg?style=flat)](https://travis-ci.org/Eric Pinet/iPerspective)

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "iPerspective"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "iPerspective is a iOS librarie of control with augmented reality."
   #s.description      = ""
   s.homepage         = "https://github.com/ericpinet/iPerspective"

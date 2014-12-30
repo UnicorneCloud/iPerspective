@@ -18,7 +18,7 @@
  *  @param intervalValue time in miliseconde
  *  @param motionManager motion manager (AppDelegate)
  */
-- (void)startUpdateWithValue:(NSTimeInterval)intervalValue manager:(CMMotionManager*)motionManager;
+- (void)startUpdate:(NSTimeInterval)intervalValue manager:(CMMotionManager*)motionManager;
 
 
 

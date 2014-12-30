@@ -21,6 +21,17 @@
 - (void)startUpdateWithValue:(NSTimeInterval)intervalValue manager:(CMMotionManager*)motionManager;
 
 
+
+/**
+ *  Start update display perspective with interval value of time (float).
+ *
+ *  @deprecated
+ *  @param intervalValue time in miliseconde
+ *  @param motionManager motion manager (AppDelegate)
+ */
+- (void)startUpdatesWithValue:(NSTimeInterval)intervalValue manager:(CMMotionManager*)motionManager;
+
+
 /**
  *  Stop update display for perspective.
  *

@@ -3,10 +3,10 @@ iPerspective
 
 iPerspective is a iOS librarie of control with augmented reality. 
 
+- **UIImageViewPerspective**: UIImageView with perspective when user move device.
 - **UIImageView+Perspective**: Category for UIImageView and permit to create UIImageView with perspective when user move device.
-- **UIView+Perspective**: Category for UIView and permit to create UIView with perspective when user move device. _(Under construction)_
-- **UIImageViewPerspective**: UIImageView with perspective when user move device. _(Under construction)_
 - **UIViewPerspective**: UIView with perspective when user move device. _(Under construction)_
+- **UIView+Perspective**: Category for UIView and permit to create UIView with perspective when user move device. _(Under construction)_
 
 Documentation: [iPerspectiveDocs](http://cocoadocs.org/docsets/iPerspective)
 
@@ -35,17 +35,17 @@ And execute this command in your project folder:
 
     pod install
 
-## Usage of 'UIImageView+Perspective'.
+## Usage of 'UIImageViewPerspective'.
 
 See the sample project iPerspective in 'Exemple' directory.
 
 ### Prepare 'CMMotionManager'
 
-UIImageView+Perspective use 'CoreMotion'. It's prefered to create a single instance of CMMotionManager for all UIImageView+Perspective in your app. 
+All control in iPerspective use 'CoreMotion'. It's prefered to create a single instance of CMMotionManager for all control in your app. 
 
     #import <CoreMotion/CoreMotion.h>
     ...
-    @interface EPViewController ()
+    @interface EPViewController2 ()
     {
         CMMotionManager *motionmanager;
     }
@@ -59,6 +59,38 @@ UIImageView+Perspective use 'CoreMotion'. It's prefered to create a single insta
         return motionmanager;
     }
 
+### Use UIImageViewPerspective in your application.
+
+UIImageViewPerspective is a subclass of UIImageView. You can use that to replace your UIImageView. 
+
+Import :
+
+    #import <iPerspective/UIImageViewPerspective.h>
+
+Setup UIImageViewPerspective:
+
+    // initialize _imagePerspective
+    [_imagePerspective setMotionManger:[self sharedManager]]; // (Mandatory) set motion manager
+    
+    [_imagePerspective setMaximumAmplitude:20.0];   // (Optional) maximum move of UIImageView
+    [_imagePerspective setMaximumAngle:2.0];        // (OPtional) maximum angle managed
+    [_imagePerspective setUpdateInterval:0.01];     // (Optional) interval of refresh
+
+Start image motion with core motion:
+
+    // start image motion with core motion
+    [_imagePerspective startUpdate];
+
+
+Stop image motion:
+
+    // stop image motion
+    [_imagePerspective stopUpdate];
+
+## Usage of 'UIImageView+Perspective'.
+
+See the sample project iPerspective in 'Exemple' directory.
+
 ### Use UIImageView+Perspective in your application.
 
 UIImageView+Perspective is a category. You can use that to replace your UIImageView. 
@@ -70,7 +102,7 @@ Import :
 Start image motion with core motion:
 
     // start image motion with core motion
-    [_imagePerspective startUpdatesWithValue:0.01 manager:[self sharedManager]];
+    [_imagePerspective startUpdateWithValue:0.01 manager:[self sharedManager]];
 
 
 Stop image motion:

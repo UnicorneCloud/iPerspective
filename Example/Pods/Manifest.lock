@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  iPerspective: 5060b483ad58b54245830d03b75a30d004c09be7
+  iPerspective: fcf1c6afb5fe210129a6ee0de215e378d7a235b5
 
 COCOAPODS: 0.35.0

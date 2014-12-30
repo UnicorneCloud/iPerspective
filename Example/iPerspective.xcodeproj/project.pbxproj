@@ -14,7 +14,6 @@
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* EPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* EPAppDelegate.m */; };
 		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
-		6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A2195388D20070C39A /* Main_iPad.storyboard */; };
 		6003F5A7195388D20070C39A /* EPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* EPViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -23,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		893E812F2BD94FB07BA358EB /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A07B362A277704A7AB2174 /* libPods-Tests.a */; };
+		97B550131A5230DB00D6580C /* EPViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B550121A5230DB00D6580C /* EPViewController2.m */; };
 		A872F66A3B42A2A2AFAB8032 /* libPods-iPerspective.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F95C25A5018AA454B09290 /* libPods-iPerspective.a */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +52,6 @@
 		6003F59C195388D20070C39A /* EPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* EPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6003F5A3195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* EPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* EPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -64,6 +63,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		746CB00AB6CCFC8A46B9D033 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		757322A61863CB1F6EEA4C5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97B550111A5230DB00D6580C /* EPViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPViewController2.h; sourceTree = "<group>"; };
+		97B550121A5230DB00D6580C /* EPViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPViewController2.m; sourceTree = "<group>"; };
 		9DB7ED1B3A2629190696D368 /* Pods-iPerspective.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPerspective.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPerspective/Pods-iPerspective.debug.xcconfig"; sourceTree = "<group>"; };
 		A268EB7DD43ACDA4B200262E /* iPerspective.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iPerspective.podspec; path = ../iPerspective.podspec; sourceTree = "<group>"; };
 		A6F95C25A5018AA454B09290 /* libPods-iPerspective.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPerspective.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,9 +136,10 @@
 				6003F59C195388D20070C39A /* EPAppDelegate.h */,
 				6003F59D195388D20070C39A /* EPAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
-				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
 				6003F5A5195388D20070C39A /* EPViewController.h */,
 				6003F5A6195388D20070C39A /* EPViewController.m */,
+				97B550111A5230DB00D6580C /* EPViewController2.h */,
+				97B550121A5230DB00D6580C /* EPViewController2.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -279,7 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -364,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B550131A5230DB00D6580C /* EPViewController2.m in Sources */,
 				6003F59E195388D20070C39A /* EPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* EPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -403,14 +405,6 @@
 				6003F5A0195388D20070C39A /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6003F5A2195388D20070C39A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5A3195388D20070C39A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -506,6 +500,7 @@
 				GCC_PREFIX_HEADER = "iPerspective/iPerspective-Prefix.pch";
 				INFOPLIST_FILE = "iPerspective/iPerspective-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -520,6 +515,7 @@
 				GCC_PREFIX_HEADER = "iPerspective/iPerspective-Prefix.pch";
 				INFOPLIST_FILE = "iPerspective/iPerspective-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

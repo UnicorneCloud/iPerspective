@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <CoreMotion/CoreMotion.h>
+@class CMMotionManager;
 
 @interface UIImageView (Perspective)
 
@@ -18,7 +18,7 @@
  *  @param intervalValue time in miliseconde
  *  @param motionManager motion manager (AppDelegate)
  */
-- (void)startUpdatesWithValue:(NSTimeInterval)intervalValue manager:(CMMotionManager*)motionManager;
+- (void)startUpdateWithValue:(NSTimeInterval)intervalValue manager:(CMMotionManager*)motionManager;
 
 
 /**

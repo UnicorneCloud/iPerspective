@@ -39,7 +39,7 @@
 - (void) viewDidAppear:(BOOL)animated
 {
     // setup UIImageView+Perspective
-    [_imagePerspective startUpdateWithValue:0.01 manager:[self sharedManager]];
+    [_imagePerspective startUpdatesWithValue:0.01 manager:[self sharedManager]];
 }
 
 - (void) viewWillDisappear:(BOOL)animated

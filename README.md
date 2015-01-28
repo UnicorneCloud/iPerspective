@@ -102,7 +102,7 @@ Import :
 Start image motion with core motion:
 
     // start image motion with core motion
-    [_imagePerspective startUpdateWithValue:0.01 manager:[self sharedManager]];
+    [_imagePerspective startUpdate:0.01 manager:[self sharedManager]];
 
 
 Stop image motion:

@@ -108,7 +108,7 @@ Start image motion with core motion:
 Stop image motion:
 
     // stop image motion
-    [_imagePerspective stopUpdateManager:[self sharedManager]];
+    [_imagePerspective stopUpdate:[self sharedManager]];
 
 
 ## Author

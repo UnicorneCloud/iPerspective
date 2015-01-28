@@ -45,7 +45,7 @@
 - (void) viewWillDisappear:(BOOL)animated
 {
     // setup UIImageView+Perspective
-    [_imagePerspective stopUpdateManager:[self sharedManager]];
+    [_imagePerspective stopUpdate:[self sharedManager]];
 }
 
 - (CMMotionManager *)sharedManager

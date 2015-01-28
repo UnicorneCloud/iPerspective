@@ -48,7 +48,19 @@
 }
 
 /**
- *  Start update display perspective with interval value of time (float).
+ *  Stop update display for perspective.
+ *
+ *  @param motionManager motion manager (AppDelegate)
+ */
+- (void)stopUpdate:(CMMotionManager*)motionManager
+{
+    if ([motionManager isDeviceMotionActive] == YES) {
+        [motionManager stopDeviceMotionUpdates];
+    }
+}
+
+/**
+ *  (DEPRECATED) Start update display perspective with interval value of time (float).
  *
  *  @deprecated
  *  @param intervalValue time in miliseconde
@@ -60,8 +72,9 @@
 }
 
 /**
- *  Stop update display for perspective.
+ *  (DEPRECATED) Stop update display for perspective.
  *
+ *  @deprecated
  *  @param motionManager motion manager (AppDelegate)
  */
 - (void)stopUpdateManager:(CMMotionManager*)motionManager

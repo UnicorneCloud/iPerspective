@@ -1,1819 +1,856 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00891260DFE5D2F2A663A51D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>03039FBCB5CD04C0D08927E2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C02050A7DC02552A67191B32</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>05694AA4D6612624BC0781DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-iPerspective-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0610689169D0B9E2FE65CBD5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C62802BAAC2FDF75FBAF1F92</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0ADB12F09DE62A62ED612023</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B0C096F0CBEE88550F804DB8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-iPerspective/Pods-Tests-iPerspective-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0BB5E62F777D0CD8C2B745E8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0610689169D0B9E2FE65CBD5</string>
-				<string>14D08432B44D43AC688475FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0EEF34A913B4BF53806756A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2583055C7A69725913473252</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>131E1FB43D686FB2F7F70A37</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>92B23E06EAFAFFC2A7F438B0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>900DDB4EA2D2C9CC463262D9</string>
-				<string>261E553D4659D81062D613AE</string>
-				<string>7227050A000CB6A113DEFAC8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>iPerspective</string>
-			<key>productName</key>
-			<string>iPerspective</string>
-			<key>productReference</key>
-			<string>55317E74F0BEF5F6AD12629A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>13A1490BE8A556EE3CB4191F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5D38013BFE88D8868C7BE64E</string>
-				<string>0ADB12F09DE62A62ED612023</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>142663CC77F9FF7A9710F0AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-iPerspective-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14D08432B44D43AC688475FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA1FC2232C4D3CB3E655B7B8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1C4DB33F5891DAFD167F3E0F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-iPerspective.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1C7E863E9CBDF399A4E03239</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-iPerspective.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>21DACD2308E6A49BD35301BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iPerspective.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21E08FFFF1FA6555E5AF3FCF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AEB44A52741E04052CECE9BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2214BF26E081D8DCF587D02B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>252E1FF73DE9982D1E7EDE73</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4ED0E0BD53820148A9E90F8A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>253EA9F945E56DE0E4E5F124</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C162A5147301D435542DA857</string>
-				<string>252E1FF73DE9982D1E7EDE73</string>
-				<string>B94C654A0F51D84411B701BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2583055C7A69725913473252</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>261E553D4659D81062D613AE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>31324549049DBB99B024F0A8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7C810C82A7331E14E00DC83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3761846384EB43115F393830</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75C4923DC87E12B3FCF85A8E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DDA3A847A314BB449A13AC7B</string>
-			<key>remoteInfo</key>
-			<string>Pods-iPerspective-iPerspective</string>
-		</dict>
-		<key>37ACFE7A3A2A94C323C00C41</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A2A2539E17D00F61D376723</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>89E3CB23BA537F2219ADC5C0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3BD208F48082484C1C4183D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2583055C7A69725913473252</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C008A7C86E3E17AEB4E3039</key>
-		<dict>
-			<key>fileRef</key>
-			<string>142663CC77F9FF7A9710F0AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3DD552E344AAEEA8B876750E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-iPerspective-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40542BA548FDA2CD4EC2150C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-iPerspective-iPerspective</string>
-			<key>target</key>
-			<string>DDA3A847A314BB449A13AC7B</string>
-			<key>targetProxy</key>
-			<string>3761846384EB43115F393830</string>
-		</dict>
-		<key>41B910CBC7806E050ED01808</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iPerspective-iPerspective.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4ED0E0BD53820148A9E90F8A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+Perspective.m</string>
-			<key>path</key>
-			<string>Pod/Classes/UIImageView+Perspective.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51E1B974ED264B4BC0BDCA79</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-iPerspective</string>
-			<key>target</key>
-			<string>73CBA39468006764631DFA61</string>
-			<key>targetProxy</key>
-			<string>6E4A11822FD9A3A45F92436F</string>
-		</dict>
-		<key>52CE3ED29B70EBD0FB0CC461</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3BD208F48082484C1C4183D7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>55317E74F0BEF5F6AD12629A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>iPerspective.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>558DE71FA88A6BE4AE602D99</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F6916491A542829B26C1B7D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5ADFD9A58BBED0E53AE40413</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75C4923DC87E12B3FCF85A8E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>131E1FB43D686FB2F7F70A37</string>
-			<key>remoteInfo</key>
-			<string>iPerspective</string>
-		</dict>
-		<key>5B3B0AC5F931BBCFA1B125EA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>758490D92D695695EE8B5922</string>
-				<string>CA1935E207F8162771B243CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5C2972CC07DD4528CFBF29D6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>00891260DFE5D2F2A663A51D</string>
-				<string>727C8061611805798A6AB929</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5D38013BFE88D8868C7BE64E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B0C096F0CBEE88550F804DB8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-iPerspective/Pods-Tests-iPerspective-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5D86A9F40343EACF56AADA19</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E34B68E157B40DC3C01C8279</string>
-				<string>E260C4EA06D3AA48AEC2F053</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F6916491A542829B26C1B7D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-iPerspective-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FAAFEAA1447ECE738374BDC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-iPerspective-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>669DB9DBD42C69FDE595198E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E17A4F6251C2416EF97C5AA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-iPerspective-iPerspective.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6E4A11822FD9A3A45F92436F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75C4923DC87E12B3FCF85A8E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>73CBA39468006764631DFA61</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-iPerspective</string>
-		</dict>
-		<key>71BCDFF18875B69001E08951</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-iPerspective.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7227050A000CB6A113DEFAC8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>727C8061611805798A6AB929</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>73CBA39468006764631DFA61</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>13A1490BE8A556EE3CB4191F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7EB86BD78F718024FCEE3150</string>
-				<string>D6629B690A6585914818253F</string>
-				<string>0BB5E62F777D0CD8C2B745E8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C3CD37AB902885126A6B1020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-iPerspective</string>
-			<key>productName</key>
-			<string>Pods-Tests-iPerspective</string>
-			<key>productReference</key>
-			<string>1C7E863E9CBDF399A4E03239</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7485202AD968CDE93DFBC89C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-iPerspective-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758490D92D695695EE8B5922</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C7F6DC1A2FC3FD67C8ADF8C1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>75C4923DC87E12B3FCF85A8E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>5C2972CC07DD4528CFBF29D6</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>ACD26CABDE5B2A40E2208D56</string>
-			<key>productRefGroup</key>
-			<string>FBA6F9672F5A100990E9C86B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>88BA856DA61956A24E1D0D74</string>
-				<string>73CBA39468006764631DFA61</string>
-				<string>7A551D98FFF3EB30810E7407</string>
-				<string>DDA3A847A314BB449A13AC7B</string>
-				<string>131E1FB43D686FB2F7F70A37</string>
-			</array>
-		</dict>
-		<key>773CE9353A52064B11C34C90</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C62802BAAC2FDF75FBAF1F92</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A551D98FFF3EB30810E7407</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8E0386A0D8A7B93AF6669CDF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FFACE41F4CF952F50EAC9042</string>
-				<string>52CE3ED29B70EBD0FB0CC461</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>40542BA548FDA2CD4EC2150C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-iPerspective</string>
-			<key>productName</key>
-			<string>Pods-iPerspective</string>
-			<key>productReference</key>
-			<string>1C4DB33F5891DAFD167F3E0F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7D766DABF3E10D2F37D0BDDD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C62802BAAC2FDF75FBAF1F92</string>
-				<string>4ED0E0BD53820148A9E90F8A</string>
-				<string>BA1FC2232C4D3CB3E655B7B8</string>
-				<string>AEB44A52741E04052CECE9BA</string>
-				<string>B320CBE09FBBEBF9337266CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iPerspective</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EB86BD78F718024FCEE3150</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>558DE71FA88A6BE4AE602D99</string>
-				<string>D38368A4DE83779057CCAE30</string>
-				<string>21E08FFFF1FA6555E5AF3FCF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>864B72EF9643679B53907A6C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>88BA856DA61956A24E1D0D74</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A467F95C6751BAFE1A79F52E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B68B4BA286FAC83B77E5A618</string>
-				<string>D6AEAD43FB3D12EA8E438833</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>51E1B974ED264B4BC0BDCA79</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>AB512EDD6CD1840F486FEECC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>89E3CB23BA537F2219ADC5C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A839677668320399D0757D0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D766DABF3E10D2F37D0BDDD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C4A4A9EE65D96FF6DD0C827</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>75C4923DC87E12B3FCF85A8E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>131E1FB43D686FB2F7F70A37</string>
-			<key>remoteInfo</key>
-			<string>iPerspective</string>
-		</dict>
-		<key>8E0386A0D8A7B93AF6669CDF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D50FBAA0BE0A9A7AAC532195</string>
-				<string>DEB69E787269B0C17CD052F6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8FC439967A5B27FEC940696B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>900DDB4EA2D2C9CC463262D9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>92B23E06EAFAFFC2A7F438B0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>864B72EF9643679B53907A6C</string>
-				<string>8FC439967A5B27FEC940696B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A467F95C6751BAFE1A79F52E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>ED7E214BB9C47AE2316785BD</string>
-				<string>3A2A2539E17D00F61D376723</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A5FCEFA2319CB1420A0059A2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>iPerspective</string>
-			<key>target</key>
-			<string>131E1FB43D686FB2F7F70A37</string>
-			<key>targetProxy</key>
-			<string>5ADFD9A58BBED0E53AE40413</string>
-		</dict>
-		<key>AB512EDD6CD1840F486FEECC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>ACD26CABDE5B2A40E2208D56</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CBCB829D8FB66BB92FA6935D</string>
-				<string>8A839677668320399D0757D0</string>
-				<string>B325743FEBCCE20058095C72</string>
-				<string>FBA6F9672F5A100990E9C86B</string>
-				<string>5D86A9F40343EACF56AADA19</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AEB44A52741E04052CECE9BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageViewPerspective.m</string>
-			<key>path</key>
-			<string>Pod/Classes/UIImageViewPerspective.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0C096F0CBEE88550F804DB8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-iPerspective-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B320CBE09FBBEBF9337266CB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>71BCDFF18875B69001E08951</string>
-				<string>B0C096F0CBEE88550F804DB8</string>
-				<string>5F6916491A542829B26C1B7D</string>
-				<string>B9B521B37E8B1D765A0DB79C</string>
-				<string>41B910CBC7806E050ED01808</string>
-				<string>C7F6DC1A2FC3FD67C8ADF8C1</string>
-				<string>F141F41B794BA68EED77BD13</string>
-				<string>C6BFFD12B9363527B7D24CD2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-Tests-iPerspective</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B325743FEBCCE20058095C72</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E200C829695F16F11D25517D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B68B4BA286FAC83B77E5A618</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>31324549049DBB99B024F0A8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B74E075FED4E180C4BD52C01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B94C654A0F51D84411B701BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AEB44A52741E04052CECE9BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B9B521B37E8B1D765A0DB79C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-iPerspective-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA1FC2232C4D3CB3E655B7B8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageViewPerspective.h</string>
-			<key>path</key>
-			<string>Pod/Classes/UIImageViewPerspective.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C02050A7DC02552A67191B32</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2583055C7A69725913473252</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C162A5147301D435542DA857</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F141F41B794BA68EED77BD13</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3CD37AB902885126A6B1020</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>iPerspective</string>
-			<key>target</key>
-			<string>131E1FB43D686FB2F7F70A37</string>
-			<key>targetProxy</key>
-			<string>8C4A4A9EE65D96FF6DD0C827</string>
-		</dict>
-		<key>C62802BAAC2FDF75FBAF1F92</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageView+Perspective.h</string>
-			<key>path</key>
-			<string>Pod/Classes/UIImageView+Perspective.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6BFFD12B9363527B7D24CD2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-iPerspective-iPerspective-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7F6DC1A2FC3FD67C8ADF8C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-iPerspective-iPerspective-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA1935E207F8162771B243CA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C7F6DC1A2FC3FD67C8ADF8C1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>CA8A60678A169F7D900A6DE7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>773CE9353A52064B11C34C90</string>
-				<string>CE8D075B4943863153B24BBE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CBCB829D8FB66BB92FA6935D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>CE49A499F222009396678E67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE8D075B4943863153B24BBE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA1FC2232C4D3CB3E655B7B8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D38368A4DE83779057CCAE30</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4ED0E0BD53820148A9E90F8A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D50FBAA0BE0A9A7AAC532195</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D556C9B7C9FEF2177DD396C4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D556C9B7C9FEF2177DD396C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iPerspective.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6629B690A6585914818253F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0EEF34A913B4BF53806756A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D6AEAD43FB3D12EA8E438833</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DD1BB9EFF0FCAB3B7C3F7037</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DD1BB9EFF0FCAB3B7C3F7037</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2583055C7A69725913473252</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DDA3A847A314BB449A13AC7B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5B3B0AC5F931BBCFA1B125EA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>253EA9F945E56DE0E4E5F124</string>
-				<string>03039FBCB5CD04C0D08927E2</string>
-				<string>CA8A60678A169F7D900A6DE7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A5FCEFA2319CB1420A0059A2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-iPerspective-iPerspective</string>
-			<key>productName</key>
-			<string>Pods-iPerspective-iPerspective</string>
-			<key>productReference</key>
-			<string>6E17A4F6251C2416EF97C5AA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>DEB69E787269B0C17CD052F6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>21DACD2308E6A49BD35301BD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E200C829695F16F11D25517D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2583055C7A69725913473252</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E260C4EA06D3AA48AEC2F053</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7485202AD968CDE93DFBC89C</string>
-				<string>05694AA4D6612624BC0781DA</string>
-				<string>142663CC77F9FF7A9710F0AD</string>
-				<string>5FAAFEAA1447ECE738374BDC</string>
-				<string>3DD552E344AAEEA8B876750E</string>
-				<string>D556C9B7C9FEF2177DD396C4</string>
-				<string>21DACD2308E6A49BD35301BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-iPerspective</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-iPerspective</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E34B68E157B40DC3C01C8279</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>669DB9DBD42C69FDE595198E</string>
-				<string>CE49A499F222009396678E67</string>
-				<string>F7C810C82A7331E14E00DC83</string>
-				<string>37ACFE7A3A2A94C323C00C41</string>
-				<string>2214BF26E081D8DCF587D02B</string>
-				<string>B74E075FED4E180C4BD52C01</string>
-				<string>89E3CB23BA537F2219ADC5C0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED7E214BB9C47AE2316785BD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B74E075FED4E180C4BD52C01</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F141F41B794BA68EED77BD13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-iPerspective-iPerspective-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7C810C82A7331E14E00DC83</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FBA6F9672F5A100990E9C86B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>55317E74F0BEF5F6AD12629A</string>
-				<string>AB512EDD6CD1840F486FEECC</string>
-				<string>1C7E863E9CBDF399A4E03239</string>
-				<string>1C4DB33F5891DAFD167F3E0F</string>
-				<string>6E17A4F6251C2416EF97C5AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFACE41F4CF952F50EAC9042</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3C008A7C86E3E17AEB4E3039</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>75C4923DC87E12B3FCF85A8E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0610689169D0B9E2FE65CBD5 /* UIImageView+Perspective.h in Headers */ = {isa = PBXBuildFile; fileRef = C62802BAAC2FDF75FBAF1F92 /* UIImageView+Perspective.h */; };
+		0EEF34A913B4BF53806756A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2583055C7A69725913473252 /* Foundation.framework */; };
+		14D08432B44D43AC688475FA /* UIImageViewPerspective.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1FC2232C4D3CB3E655B7B8 /* UIImageViewPerspective.h */; };
+		21E08FFFF1FA6555E5AF3FCF /* UIImageViewPerspective.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB44A52741E04052CECE9BA /* UIImageViewPerspective.m */; };
+		252E1FF73DE9982D1E7EDE73 /* UIImageView+Perspective.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0E0BD53820148A9E90F8A /* UIImageView+Perspective.m */; };
+		31324549049DBB99B024F0A8 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C810C82A7331E14E00DC83 /* Pods-Tests-dummy.m */; };
+		3BD208F48082484C1C4183D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2583055C7A69725913473252 /* Foundation.framework */; };
+		3C008A7C86E3E17AEB4E3039 /* Pods-iPerspective-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 142663CC77F9FF7A9710F0AD /* Pods-iPerspective-dummy.m */; };
+		558DE71FA88A6BE4AE602D99 /* Pods-Tests-iPerspective-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6916491A542829B26C1B7D /* Pods-Tests-iPerspective-dummy.m */; };
+		773CE9353A52064B11C34C90 /* UIImageView+Perspective.h in Headers */ = {isa = PBXBuildFile; fileRef = C62802BAAC2FDF75FBAF1F92 /* UIImageView+Perspective.h */; };
+		B94C654A0F51D84411B701BA /* UIImageViewPerspective.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB44A52741E04052CECE9BA /* UIImageViewPerspective.m */; };
+		C02050A7DC02552A67191B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2583055C7A69725913473252 /* Foundation.framework */; };
+		C162A5147301D435542DA857 /* Pods-iPerspective-iPerspective-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F141F41B794BA68EED77BD13 /* Pods-iPerspective-iPerspective-dummy.m */; };
+		CE8D075B4943863153B24BBE /* UIImageViewPerspective.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1FC2232C4D3CB3E655B7B8 /* UIImageViewPerspective.h */; };
+		D38368A4DE83779057CCAE30 /* UIImageView+Perspective.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0E0BD53820148A9E90F8A /* UIImageView+Perspective.m */; };
+		DD1BB9EFF0FCAB3B7C3F7037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2583055C7A69725913473252 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3761846384EB43115F393830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C4923DC87E12B3FCF85A8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA3A847A314BB449A13AC7B;
+			remoteInfo = "Pods-iPerspective-iPerspective";
+		};
+		5ADFD9A58BBED0E53AE40413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C4923DC87E12B3FCF85A8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131E1FB43D686FB2F7F70A37;
+			remoteInfo = iPerspective;
+		};
+		6E4A11822FD9A3A45F92436F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C4923DC87E12B3FCF85A8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73CBA39468006764631DFA61;
+			remoteInfo = "Pods-Tests-iPerspective";
+		};
+		8C4A4A9EE65D96FF6DD0C827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C4923DC87E12B3FCF85A8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131E1FB43D686FB2F7F70A37;
+			remoteInfo = iPerspective;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05694AA4D6612624BC0781DA /* Pods-iPerspective-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPerspective-acknowledgements.plist"; sourceTree = "<group>"; };
+		142663CC77F9FF7A9710F0AD /* Pods-iPerspective-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPerspective-dummy.m"; sourceTree = "<group>"; };
+		1C4DB33F5891DAFD167F3E0F /* libPods-iPerspective.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPerspective.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7E863E9CBDF399A4E03239 /* libPods-Tests-iPerspective.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-iPerspective.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DACD2308E6A49BD35301BD /* Pods-iPerspective.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPerspective.release.xcconfig"; sourceTree = "<group>"; };
+		2214BF26E081D8DCF587D02B /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		2583055C7A69725913473252 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37ACFE7A3A2A94C323C00C41 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		3DD552E344AAEEA8B876750E /* Pods-iPerspective-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPerspective-resources.sh"; sourceTree = "<group>"; };
+		41B910CBC7806E050ED01808 /* Pods-iPerspective-iPerspective.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPerspective-iPerspective.xcconfig"; path = "../Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective.xcconfig"; sourceTree = "<group>"; };
+		4ED0E0BD53820148A9E90F8A /* UIImageView+Perspective.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Perspective.m"; path = "Pod/Classes/UIImageView+Perspective.m"; sourceTree = "<group>"; };
+		55317E74F0BEF5F6AD12629A /* iPerspective.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPerspective.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6916491A542829B26C1B7D /* Pods-Tests-iPerspective-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-iPerspective-dummy.m"; sourceTree = "<group>"; };
+		5FAAFEAA1447ECE738374BDC /* Pods-iPerspective-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPerspective-environment.h"; sourceTree = "<group>"; };
+		669DB9DBD42C69FDE595198E /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E17A4F6251C2416EF97C5AA /* libPods-iPerspective-iPerspective.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPerspective-iPerspective.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BCDFF18875B69001E08951 /* Pods-Tests-iPerspective.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-iPerspective.xcconfig"; sourceTree = "<group>"; };
+		7485202AD968CDE93DFBC89C /* Pods-iPerspective-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPerspective-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89E3CB23BA537F2219ADC5C0 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB512EDD6CD1840F486FEECC /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB44A52741E04052CECE9BA /* UIImageViewPerspective.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIImageViewPerspective.m; path = Pod/Classes/UIImageViewPerspective.m; sourceTree = "<group>"; };
+		B0C096F0CBEE88550F804DB8 /* Pods-Tests-iPerspective-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-iPerspective-Private.xcconfig"; sourceTree = "<group>"; };
+		B74E075FED4E180C4BD52C01 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B521B37E8B1D765A0DB79C /* Pods-Tests-iPerspective-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-iPerspective-prefix.pch"; sourceTree = "<group>"; };
+		BA1FC2232C4D3CB3E655B7B8 /* UIImageViewPerspective.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIImageViewPerspective.h; path = Pod/Classes/UIImageViewPerspective.h; sourceTree = "<group>"; };
+		C62802BAAC2FDF75FBAF1F92 /* UIImageView+Perspective.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Perspective.h"; path = "Pod/Classes/UIImageView+Perspective.h"; sourceTree = "<group>"; };
+		C6BFFD12B9363527B7D24CD2 /* Pods-iPerspective-iPerspective-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iPerspective-iPerspective-prefix.pch"; path = "../Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-prefix.pch"; sourceTree = "<group>"; };
+		C7F6DC1A2FC3FD67C8ADF8C1 /* Pods-iPerspective-iPerspective-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPerspective-iPerspective-Private.xcconfig"; path = "../Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-Private.xcconfig"; sourceTree = "<group>"; };
+		CBCB829D8FB66BB92FA6935D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE49A499F222009396678E67 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D556C9B7C9FEF2177DD396C4 /* Pods-iPerspective.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPerspective.debug.xcconfig"; sourceTree = "<group>"; };
+		F141F41B794BA68EED77BD13 /* Pods-iPerspective-iPerspective-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-iPerspective-iPerspective-dummy.m"; path = "../Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-dummy.m"; sourceTree = "<group>"; };
+		F7C810C82A7331E14E00DC83 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03039FBCB5CD04C0D08927E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02050A7DC02552A67191B32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261E553D4659D81062D613AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CE3ED29B70EBD0FB0CC461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD208F48082484C1C4183D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6629B690A6585914818253F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEF34A913B4BF53806756A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AEAD43FB3D12EA8E438833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1BB9EFF0FCAB3B7C3F7037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D86A9F40343EACF56AADA19 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E34B68E157B40DC3C01C8279 /* Pods-Tests */,
+				E260C4EA06D3AA48AEC2F053 /* Pods-iPerspective */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D766DABF3E10D2F37D0BDDD /* iPerspective */ = {
+			isa = PBXGroup;
+			children = (
+				C62802BAAC2FDF75FBAF1F92 /* UIImageView+Perspective.h */,
+				4ED0E0BD53820148A9E90F8A /* UIImageView+Perspective.m */,
+				BA1FC2232C4D3CB3E655B7B8 /* UIImageViewPerspective.h */,
+				AEB44A52741E04052CECE9BA /* UIImageViewPerspective.m */,
+				B320CBE09FBBEBF9337266CB /* Support Files */,
+			);
+			name = iPerspective;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8A839677668320399D0757D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D766DABF3E10D2F37D0BDDD /* iPerspective */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ACD26CABDE5B2A40E2208D56 = {
+			isa = PBXGroup;
+			children = (
+				CBCB829D8FB66BB92FA6935D /* Podfile */,
+				8A839677668320399D0757D0 /* Development Pods */,
+				B325743FEBCCE20058095C72 /* Frameworks */,
+				FBA6F9672F5A100990E9C86B /* Products */,
+				5D86A9F40343EACF56AADA19 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B320CBE09FBBEBF9337266CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BCDFF18875B69001E08951 /* Pods-Tests-iPerspective.xcconfig */,
+				B0C096F0CBEE88550F804DB8 /* Pods-Tests-iPerspective-Private.xcconfig */,
+				5F6916491A542829B26C1B7D /* Pods-Tests-iPerspective-dummy.m */,
+				B9B521B37E8B1D765A0DB79C /* Pods-Tests-iPerspective-prefix.pch */,
+				41B910CBC7806E050ED01808 /* Pods-iPerspective-iPerspective.xcconfig */,
+				C7F6DC1A2FC3FD67C8ADF8C1 /* Pods-iPerspective-iPerspective-Private.xcconfig */,
+				F141F41B794BA68EED77BD13 /* Pods-iPerspective-iPerspective-dummy.m */,
+				C6BFFD12B9363527B7D24CD2 /* Pods-iPerspective-iPerspective-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-Tests-iPerspective";
+			sourceTree = "<group>";
+		};
+		B325743FEBCCE20058095C72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E200C829695F16F11D25517D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E200C829695F16F11D25517D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2583055C7A69725913473252 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E260C4EA06D3AA48AEC2F053 /* Pods-iPerspective */ = {
+			isa = PBXGroup;
+			children = (
+				7485202AD968CDE93DFBC89C /* Pods-iPerspective-acknowledgements.markdown */,
+				05694AA4D6612624BC0781DA /* Pods-iPerspective-acknowledgements.plist */,
+				142663CC77F9FF7A9710F0AD /* Pods-iPerspective-dummy.m */,
+				5FAAFEAA1447ECE738374BDC /* Pods-iPerspective-environment.h */,
+				3DD552E344AAEEA8B876750E /* Pods-iPerspective-resources.sh */,
+				D556C9B7C9FEF2177DD396C4 /* Pods-iPerspective.debug.xcconfig */,
+				21DACD2308E6A49BD35301BD /* Pods-iPerspective.release.xcconfig */,
+			);
+			name = "Pods-iPerspective";
+			path = "Target Support Files/Pods-iPerspective";
+			sourceTree = "<group>";
+		};
+		E34B68E157B40DC3C01C8279 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				669DB9DBD42C69FDE595198E /* Pods-Tests-acknowledgements.markdown */,
+				CE49A499F222009396678E67 /* Pods-Tests-acknowledgements.plist */,
+				F7C810C82A7331E14E00DC83 /* Pods-Tests-dummy.m */,
+				37ACFE7A3A2A94C323C00C41 /* Pods-Tests-environment.h */,
+				2214BF26E081D8DCF587D02B /* Pods-Tests-resources.sh */,
+				B74E075FED4E180C4BD52C01 /* Pods-Tests.debug.xcconfig */,
+				89E3CB23BA537F2219ADC5C0 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		FBA6F9672F5A100990E9C86B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55317E74F0BEF5F6AD12629A /* iPerspective.bundle */,
+				AB512EDD6CD1840F486FEECC /* libPods-Tests.a */,
+				1C7E863E9CBDF399A4E03239 /* libPods-Tests-iPerspective.a */,
+				1C4DB33F5891DAFD167F3E0F /* libPods-iPerspective.a */,
+				6E17A4F6251C2416EF97C5AA /* libPods-iPerspective-iPerspective.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BB5E62F777D0CD8C2B745E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0610689169D0B9E2FE65CBD5 /* UIImageView+Perspective.h in Headers */,
+				14D08432B44D43AC688475FA /* UIImageViewPerspective.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8A60678A169F7D900A6DE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773CE9353A52064B11C34C90 /* UIImageView+Perspective.h in Headers */,
+				CE8D075B4943863153B24BBE /* UIImageViewPerspective.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		131E1FB43D686FB2F7F70A37 /* iPerspective */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B23E06EAFAFFC2A7F438B0 /* Build configuration list for PBXNativeTarget "iPerspective" */;
+			buildPhases = (
+				900DDB4EA2D2C9CC463262D9 /* Sources */,
+				261E553D4659D81062D613AE /* Frameworks */,
+				7227050A000CB6A113DEFAC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPerspective;
+			productName = iPerspective;
+			productReference = 55317E74F0BEF5F6AD12629A /* iPerspective.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		73CBA39468006764631DFA61 /* Pods-Tests-iPerspective */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A1490BE8A556EE3CB4191F /* Build configuration list for PBXNativeTarget "Pods-Tests-iPerspective" */;
+			buildPhases = (
+				7EB86BD78F718024FCEE3150 /* Sources */,
+				D6629B690A6585914818253F /* Frameworks */,
+				0BB5E62F777D0CD8C2B745E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3CD37AB902885126A6B1020 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-iPerspective";
+			productName = "Pods-Tests-iPerspective";
+			productReference = 1C7E863E9CBDF399A4E03239 /* libPods-Tests-iPerspective.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A551D98FFF3EB30810E7407 /* Pods-iPerspective */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0386A0D8A7B93AF6669CDF /* Build configuration list for PBXNativeTarget "Pods-iPerspective" */;
+			buildPhases = (
+				FFACE41F4CF952F50EAC9042 /* Sources */,
+				52CE3ED29B70EBD0FB0CC461 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40542BA548FDA2CD4EC2150C /* PBXTargetDependency */,
+			);
+			name = "Pods-iPerspective";
+			productName = "Pods-iPerspective";
+			productReference = 1C4DB33F5891DAFD167F3E0F /* libPods-iPerspective.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		88BA856DA61956A24E1D0D74 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A467F95C6751BAFE1A79F52E /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				B68B4BA286FAC83B77E5A618 /* Sources */,
+				D6AEAD43FB3D12EA8E438833 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51E1B974ED264B4BC0BDCA79 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = AB512EDD6CD1840F486FEECC /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DDA3A847A314BB449A13AC7B /* Pods-iPerspective-iPerspective */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3B0AC5F931BBCFA1B125EA /* Build configuration list for PBXNativeTarget "Pods-iPerspective-iPerspective" */;
+			buildPhases = (
+				253EA9F945E56DE0E4E5F124 /* Sources */,
+				03039FBCB5CD04C0D08927E2 /* Frameworks */,
+				CA8A60678A169F7D900A6DE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FCEFA2319CB1420A0059A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-iPerspective-iPerspective";
+			productName = "Pods-iPerspective-iPerspective";
+			productReference = 6E17A4F6251C2416EF97C5AA /* libPods-iPerspective-iPerspective.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C4923DC87E12B3FCF85A8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					131E1FB43D686FB2F7F70A37 = {
+						DevelopmentTeam = NU5E6U97UG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C2972CC07DD4528CFBF29D6 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACD26CABDE5B2A40E2208D56;
+			productRefGroup = FBA6F9672F5A100990E9C86B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88BA856DA61956A24E1D0D74 /* Pods-Tests */,
+				73CBA39468006764631DFA61 /* Pods-Tests-iPerspective */,
+				7A551D98FFF3EB30810E7407 /* Pods-iPerspective */,
+				DDA3A847A314BB449A13AC7B /* Pods-iPerspective-iPerspective */,
+				131E1FB43D686FB2F7F70A37 /* iPerspective */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7227050A000CB6A113DEFAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		253EA9F945E56DE0E4E5F124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C162A5147301D435542DA857 /* Pods-iPerspective-iPerspective-dummy.m in Sources */,
+				252E1FF73DE9982D1E7EDE73 /* UIImageView+Perspective.m in Sources */,
+				B94C654A0F51D84411B701BA /* UIImageViewPerspective.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB86BD78F718024FCEE3150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558DE71FA88A6BE4AE602D99 /* Pods-Tests-iPerspective-dummy.m in Sources */,
+				D38368A4DE83779057CCAE30 /* UIImageView+Perspective.m in Sources */,
+				21E08FFFF1FA6555E5AF3FCF /* UIImageViewPerspective.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900DDB4EA2D2C9CC463262D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68B4BA286FAC83B77E5A618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31324549049DBB99B024F0A8 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFACE41F4CF952F50EAC9042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C008A7C86E3E17AEB4E3039 /* Pods-iPerspective-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40542BA548FDA2CD4EC2150C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iPerspective-iPerspective";
+			target = DDA3A847A314BB449A13AC7B /* Pods-iPerspective-iPerspective */;
+			targetProxy = 3761846384EB43115F393830 /* PBXContainerItemProxy */;
+		};
+		51E1B974ED264B4BC0BDCA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-iPerspective";
+			target = 73CBA39468006764631DFA61 /* Pods-Tests-iPerspective */;
+			targetProxy = 6E4A11822FD9A3A45F92436F /* PBXContainerItemProxy */;
+		};
+		A5FCEFA2319CB1420A0059A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iPerspective;
+			target = 131E1FB43D686FB2F7F70A37 /* iPerspective */;
+			targetProxy = 5ADFD9A58BBED0E53AE40413 /* PBXContainerItemProxy */;
+		};
+		C3CD37AB902885126A6B1020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iPerspective;
+			target = 131E1FB43D686FB2F7F70A37 /* iPerspective */;
+			targetProxy = 8C4A4A9EE65D96FF6DD0C827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00891260DFE5D2F2A663A51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		0ADB12F09DE62A62ED612023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C096F0CBEE88550F804DB8 /* Pods-Tests-iPerspective-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-iPerspective/Pods-Tests-iPerspective-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2A2539E17D00F61D376723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E3CB23BA537F2219ADC5C0 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D38013BFE88D8868C7BE64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C096F0CBEE88550F804DB8 /* Pods-Tests-iPerspective-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-iPerspective/Pods-Tests-iPerspective-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		727C8061611805798A6AB929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758490D92D695695EE8B5922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F6DC1A2FC3FD67C8ADF8C1 /* Pods-iPerspective-iPerspective-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		864B72EF9643679B53907A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NU5E6U97UG;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Pods-iPerspective/Pods-iPerspective-acknowledgements.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8FC439967A5B27FEC940696B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NU5E6U97UG;
+				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Pods-iPerspective/Pods-iPerspective-acknowledgements.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CA1935E207F8162771B243CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F6DC1A2FC3FD67C8ADF8C1 /* Pods-iPerspective-iPerspective-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iPerspective-iPerspective/Pods-iPerspective-iPerspective-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50FBAA0BE0A9A7AAC532195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D556C9B7C9FEF2177DD396C4 /* Pods-iPerspective.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEB69E787269B0C17CD052F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DACD2308E6A49BD35301BD /* Pods-iPerspective.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7E214BB9C47AE2316785BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74E075FED4E180C4BD52C01 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A1490BE8A556EE3CB4191F /* Build configuration list for PBXNativeTarget "Pods-Tests-iPerspective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D38013BFE88D8868C7BE64E /* Debug */,
+				0ADB12F09DE62A62ED612023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3B0AC5F931BBCFA1B125EA /* Build configuration list for PBXNativeTarget "Pods-iPerspective-iPerspective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758490D92D695695EE8B5922 /* Debug */,
+				CA1935E207F8162771B243CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2972CC07DD4528CFBF29D6 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00891260DFE5D2F2A663A51D /* Debug */,
+				727C8061611805798A6AB929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0386A0D8A7B93AF6669CDF /* Build configuration list for PBXNativeTarget "Pods-iPerspective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50FBAA0BE0A9A7AAC532195 /* Debug */,
+				DEB69E787269B0C17CD052F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B23E06EAFAFFC2A7F438B0 /* Build configuration list for PBXNativeTarget "iPerspective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864B72EF9643679B53907A6C /* Debug */,
+				8FC439967A5B27FEC940696B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A467F95C6751BAFE1A79F52E /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7E214BB9C47AE2316785BD /* Debug */,
+				3A2A2539E17D00F61D376723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75C4923DC87E12B3FCF85A8E /* Project object */;
+}

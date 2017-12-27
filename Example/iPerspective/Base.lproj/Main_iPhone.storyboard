@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PLI-dL-wnT">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="PLI-dL-wnT">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--UIImageView+Perspective-->
@@ -14,14 +19,20 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="QUO-ip-Zmp">
-                                <rect key="frame" x="-40" y="-40" width="400" height="640"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="QUO-ip-Zmp">
+                                <rect key="frame" x="-40" y="-40" width="490" height="852"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QUO-ip-Zmp" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="-84" id="6az-iV-zEA"/>
+                            <constraint firstAttribute="bottom" secondItem="QUO-ip-Zmp" secondAttribute="bottom" id="WBB-GI-Iu5"/>
+                            <constraint firstItem="QUO-ip-Zmp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-56" id="qRt-UD-Bx6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QUO-ip-Zmp" secondAttribute="trailing" constant="-91" id="u1L-Nz-fI7"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="UIImageView+Perspective" id="CEQ-Os-kSS"/>
                     <connections>
@@ -30,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837" y="357"/>
+            <point key="canvasLocation" x="837" y="25"/>
         </scene>
         <!--UIImageViewPerspective-->
         <scene sceneID="9UX-2O-vh1">
@@ -41,14 +52,22 @@
                         <viewControllerLayoutGuide type="bottom" id="fHg-hd-pqG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ok4-94-O4x">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="3Xv-x7-9f5" customClass="UIImageViewPerspective">
-                                <rect key="frame" x="-40" y="-40" width="400" height="620"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="3Xv-x7-9f5" customClass="UIImageViewPerspective">
+                                <rect key="frame" x="-43" y="-20" width="549" height="852"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="549" id="uPa-FU-tY4"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Xv-x7-9f5" firstAttribute="top" secondItem="ok4-94-O4x" secondAttribute="topMargin" constant="-64" id="D3E-Nz-lXN"/>
+                            <constraint firstItem="3Xv-x7-9f5" firstAttribute="centerY" secondItem="ok4-94-O4x" secondAttribute="centerY" id="jTF-2B-wkE"/>
+                            <constraint firstItem="3Xv-x7-9f5" firstAttribute="leading" secondItem="ok4-94-O4x" secondAttribute="leadingMargin" constant="-59" id="xnT-oW-2pJ"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="UIImageViewPerspective" id="2dv-kr-hu2"/>
                     <connections>
@@ -57,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dvz-5m-Ac0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837" y="1097"/>
+            <point key="canvasLocation" x="836.5" y="1097"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="KqR-jq-xA1">
@@ -66,8 +85,9 @@
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="N53-EL-FZL">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="qo5-pw-dHa"/>
@@ -83,9 +103,4 @@
         <image name="Image" width="389" height="721"/>
         <image name="Image2" width="425" height="551"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

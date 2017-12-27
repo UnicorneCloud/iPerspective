@@ -12,7 +12,7 @@ Documentation: [iPerspectiveDocs](http://cocoadocs.org/docsets/iPerspective)
 
 # iPerspective
 
-[![CI Status](http://img.shields.io/travis/Eric%20Pinet/iPerspective.svg?style=flat)](https://travis-ci.org/Eric Pinet/iPerspective)
+[![CI Status](http://img.shields.io/travis/Eric%20Pinet/iPerspective.svg?style=flat)](https://travis-ci.org/Eric%20Pinet/iPerspective)
 [![Version](https://img.shields.io/cocoapods/v/iPerspective.svg?style=flat)](http://cocoadocs.org/docsets/iPerspective)
 [![License](https://img.shields.io/cocoapods/l/iPerspective.svg?style=flat)](http://cocoadocs.org/docsets/iPerspective)
 [![Platform](https://img.shields.io/cocoapods/p/iPerspective.svg?style=flat)](http://cocoadocs.org/docsets/iPerspective)
